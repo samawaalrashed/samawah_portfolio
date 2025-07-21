@@ -1,0 +1,67 @@
+
+/* عام */
+body {
+    background-color: #808080; /* رمادي */
+    color: #0044cc; /* أزرق */
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+/* العنوان */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* النموذج */
+form {
+    background-color: #f0f0f0;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* الحقول */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* زر الإرسال */
+input[type="submit"] {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #002a80;
+}
+
+/* الرابط */
+a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
