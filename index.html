@@ -1,172 +1,54 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>Register Now</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #003366, #7fd7f0);
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      color: #fff;
-    }
-
-    /* ===== New Navbar ===== */
-    nav {
-      background-color: #e0f7fa;
-      padding: 15px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-    }
-
-    .nav-left {
-      display: flex;
-      align-items: center;
-    }
-
-    .nav-logo {
-      width: 35px;
-      height: 35px;
-      background-color: #007acc;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-
-    .nav-title {
-      font-size: 20px;
-      font-weight: 600;
-      color: #003366;
-    }
-
-    .nav-links a {
-      margin-left: 25px;
-      text-decoration: none;
-      color: #007acc;
-      font-weight: 500;
-      transition: color 0.3s;
-    }
-
-    .nav-links a:hover {
-      color: #004c80;
-    }
-
-    /* ===== Form Section ===== */
-    .main-content {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      padding-right: 5%;
-    }
-
-    .form-wrapper {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 40px 35px;
-      border-radius: 18px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-      backdrop-filter: blur(6px);
-      width: 350px;
-    }
-
-    h2 {
-      margin-bottom: 25px;
-      font-size: 26px;
-      color: #ffffff;
-      text-align: center;
-    }
-
-    input {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 18px;
-      border: none;
-      border-radius: 10px;
-      font-size: 15px;
-      background-color: rgba(255, 255, 255, 0.9);
-      color: #003366;
-    }
-
-    input:focus {
-      outline: 2px solid #66c9e0;
-    }
-
-    button {
-      width: 100%;
-      background-color: #ffffff;
-      color: #003366;
-      padding: 12px;
-      font-size: 16px;
-      border: none;
-      border-radius: 10px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-
-    button:hover {
-      background-color: #e6f7ff;
-    }
-
-    .footer-text {
-      text-align: center;
-      margin-top: 15px;
-      font-size: 14px;
-      color: #e0f7ff;
-    }
-
-    .footer-text a {
-      color: #ffffff;
-      text-decoration: underline;
-    }
-
-    .footer-text a:hover {
-      color: #d0f0ff;
-    }
-  </style>
+  <title>سماوه الراشد | الأمن السيبراني</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- New Navbar -->
-  <nav>
-    <div class="nav-left">
-      <div class="nav-logo"></div>
-      <div class="nav-title">BlueForm</div>
-    </div>
-    <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">Features</a>
-      <a href="#">Support</a>
-      <a href="#">Contact</a>
-    </div>
-  </nav>
+  <header>
+    <h1 class="name">🔐 سماوه الراشد</h1>
+    <p class="title">متخصصة في الأمن السيبراني | حماية البيانات برؤية ناعمة 👩‍💻</p>
+    <nav>
+      <ul>
+        <li><a href="#about">🙋‍♀ عني</a></li>
+        <li><a href="#skills">🛠 مهاراتي</a></li>
+        <li><a href="#projects">📁 مشاريعي</a></li>
+        <li><a href="#contact">📞 تواصلي</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Main Content with Form -->
-  <div class="main-content">
-    <div class="form-wrapper">
-      <h2>Create Your Account</h2>
-      <form>
-        <input type="text" value="Samawh al-rashed" readonly>
-        <input type="email" value="smaoaahmad16@gmail.com" readonly>
-        <input type="password" placeholder="Password" required>
-        <button type="submit">Register</button>
-      </form>
-      <div class="footer-text">
-        Already a member? <a href="#">Login</a>
-      </div>
-    </div>
-  </div>
+  <section id="about">
+    <h2>🙋‍♀ من أنا؟</h2>
+    <p>أنا سماوه، شغوفة بعالم الأمن السيبراني وأسعى لحماية العالم الرقمي بابتسامة 💫</p>
+  </section>
+
+  <section id="skills">
+    <h2>🛠 مهاراتي</h2>
+    <ul>
+      <li>تحليل الثغرات</li>
+      <li>اختبار الاختراق</li>
+      <li>مراقبة الشبكات</li>
+      <li>أمن التطبيقات</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>📁 مشاريعي</h2>
+    <p>(يمكن إضافة صور أو روابط لاحقًا)</p>
+  </section>
+
+  <section id="contact">
+    <h2>📞 تواصلي</h2>
+    <p>📧 البريد الإلكتروني: your.email@example.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 سماوه الراشد. كل الحقوق محفوظة.</p>
+  </footer>
 
 </body>
 </html>
