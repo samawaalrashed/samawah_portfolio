@@ -1,39 +1,101 @@
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  direction: rtl;
-  text-align: right;
+  font-family: 'Cairo', sans-serif;
+  background: #ffffff;
+  color: #333;
+  margin: 0;
   padding: 20px;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
-  background: white;
   padding: 30px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  background: #f9f9f9;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-.avatar {
-  width: 100px;
+.avatar-box {
+  text-align: center;
+  background: linear-gradient(135deg, #f8c6d8, #c6eaf8);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.avatar-img {
+  width: 90px;
   border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 10px #ccc;
 }
 
-h1, h2, h3 {
-  color: #333;
+.name {
+  font-size: 24px;
+  color: #222;
+  margin: 10px 0 5px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #444;
+}
+
+.linkedin-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.linkedin-btn i {
+  margin-left: 8px;
+}
+
+.linkedin-btn:hover {
+  background-color: #005a87;
+}
+
+.section-title {
+  margin-top: 30px;
+  color: #444;
+  font-size: 20px;
+}
+
+.section-title span {
+  color: #f48fb1;
+}
+
+.intro {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 .tags span {
-  background-color: #dce9f9;
-  padding: 5px 10px;
-  margin: 5px;
   display: inline-block;
+  background-color: #c6eaf8;
+  padding: 6px 12px;
   border-radius: 15px;
+  margin: 5px;
+  font-size: 14px;
+  color: #005a87;
+}
+
+ul {
+  padding-right: 20px;
+  line-height: 1.7;
 }
 
 footer {
   margin-top: 40px;
+  text-align: center;
   font-size: 14px;
-  color: #666;
+  color: #aaa;
 }
