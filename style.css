@@ -1,132 +1,70 @@
 
-/* عام */
 body {
-    background-color: #808080; /* رمادي */
-    color: #0044cc; /* أزرق */
-    font-family: 'Cairo', sans-serif;
-    text-align: center;
-    padding: 50px;
-}
-
-/* العنوان */
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-/* النموذج */
-form {
-    background-color: #f0f0f0;
-    display: inline-block;
-    padding: 30px;
-    border-radius: 12px;
-    text-align: left;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-/* الحقول */
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"],
-select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-/* زر الإرسال */
-input[type="submit"] {
-    background-color: #0044cc;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #002a80;
-}
-
-/* الرابط */
-a {
-    color: #0044cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-body {
-  font-family: 'Tahoma', sans-serif;
-  margin: 0;
-  background: #fdfdff;
-  color: #333;
-  direction: rtl;
-  text-align: right;
+    font-family: 'Tahoma', sans-serif;
+    margin: 0;
+    background: #fdfdff;
+    color: #333;
+    direction: rtl;
+    text-align: right;
 }
 
 header {
-  background: linear-gradient(to left, #c9e4ff, #ffe4f2);
-  color: #333;
-  padding: 30px;
-  text-align: center;
-  border-bottom: 3px solid #eee;
+    background: linear-gradient(to left, #c9e4ff, #ffe4f2);
+    color: #333;
+    padding: 30px 10px;
+    text-align: center;
 }
 
-.name {
-  font-size: 2.8em;
-  color: #5d9cec; /* سماوي */
-}
-
-.title {
-  font-size: 1.2em;
-  color: #e58cbf; /* زهري فاتح */
-  margin-bottom: 20px;
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #5d9cec;
-  font-weight: bold;
+    text-decoration: none;
+    color: #5d9cec;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
 }
 
 section {
-  padding: 40px 20px;
-  margin: 20px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(173, 216, 230, 0.3); /* ظل سماوي */
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.3);
 }
 
-h2 {
-  color: #e58cbf;
-  font-size: 1.6em;
+.skills-tags span {
+    display: inline-block;
+    background-color: #e3f2fd;
+    color: #007acc;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9em;
 }
 
-footer {
-  text-align: center;
-  background: #ffe4f2;
-  color: #666;
-  padding: 20px;
-  font-size: 0.9em;
-  border-top: 2px solid #ddd;
+.project-boxes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
+
+.project-boxes .box {
+    |oai:code-citation|
