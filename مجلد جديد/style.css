@@ -1,70 +1,102 @@
 
-/* الخط الأساسي */
 body {
   font-family: 'Tajawal', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fffdf4;
-  color: #2c2c2c;
+  background-color: #fdf6e3;
+  color: #333;
 }
 
-/* الهيدر */
 header {
-  background-color: #fdd835;
-  color: #000;
-  text-align: center;
-  padding: 20px;
-  border-bottom: 3px solid #ffb300;
+  background-color: #3e2723;
+  color: #fff;
+  padding: 20px 0;
+  text-align: right;
 }
 
-header .btn {
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.linkedin-btn {
+  background-color: #ffca28;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
   display: inline-block;
   margin-top: 10px;
-  padding: 8px 16px;
-  background-color: #ffa000;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background-color 0.3s ease;
 }
 
-header .btn:hover {
-  background-color: #ff8f00;
+.intro {
+  padding: 50px 0;
+  background-color: #fff9e6;
 }
 
-/* قسم التعريف */
-.about {
-  padding: 30px;
-  text-align: center;
+.intro-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-.about .bee-image {
-  width: 150px;
-  margin-top: 20px;
-  border-radius: 10px;
+.bee-img {
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid #ffca28;
 }
 
-/* قسم المشاريع */
+.intro .text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.intro .tags {
+  margin-top: 15px;
+}
+
+.intro .tags span {
+  background-color: #3e2723;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-block;
+}
+
 .projects {
-  background-color: #fff8e1;
-  padding: 30px;
-  border-top: 2px solid #fbc02d;
-}
-
-.projects .card {
-  background-color: #ffecb3;
-  padding: 20px;
-  margin-bottom: 20px;
-  border: 2px solid #f9a825;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* الفوتر */
-footer {
-  background-color: #424242;
-  color: white;
+  padding: 40px 0;
+  background-color: #fef3c7;
   text-align: center;
-  padding: 15px;
-  margin-top: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fffde7;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #3e2723;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
 }
