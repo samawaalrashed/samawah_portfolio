@@ -1,0 +1,70 @@
+
+/* الخط الأساسي */
+body {
+  font-family: 'Tajawal', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdf4;
+  color: #2c2c2c;
+}
+
+/* الهيدر */
+header {
+  background-color: #fdd835;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 3px solid #ffb300;
+}
+
+header .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ffa000;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+  background-color: #ff8f00;
+}
+
+/* قسم التعريف */
+.about {
+  padding: 30px;
+  text-align: center;
+}
+
+.about .bee-image {
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* قسم المشاريع */
+.projects {
+  background-color: #fff8e1;
+  padding: 30px;
+  border-top: 2px solid #fbc02d;
+}
+
+.projects .card {
+  background-color: #ffecb3;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #f9a825;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* الفوتر */
+footer {
+  background-color: #424242;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
